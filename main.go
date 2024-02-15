@@ -55,7 +55,9 @@ func printBestPerson(bestPerson string) {
 	case "rory":
 		fmt.Println("Roary the racing car, Roary the number 1 star!")
 	case "jack":
-		fmt.Println("Don't try to use a buffer overflow to get the flag, it won't work!")
+		fmt.Println("Will Jack drink alcohol or just play chess? Find out next time on Dragon Ball Z")
+	case "jordon":
+		fmt.Println("I don't know if Jordon will be here but I'm sure he'd try a buffer overflow. Yes it is spelt with an O contrary to autocorrect's beliefs")
 	default:
 		fmt.Println(bestPerson, "is the best person in this room")
 	}
