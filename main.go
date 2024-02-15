@@ -73,7 +73,12 @@ func printBestPerson(bestPerson string) {
 	}
 }
 
+func displayRepoInfo() {
+	fmt.Println("The source code for the program you are currently running can be found at https://github.com/SkyzerFlyzer/hackers-ctf-binary-source")
+}
+
 func main() {
+	displayRepoInfo()
 	bestPerson := getUserInput()
 	printBestPerson(bestPerson)
 }
