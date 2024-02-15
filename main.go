@@ -35,7 +35,7 @@ func printBestPerson(bestPerson string) {
 	case "joey":
 		fmt.Println("Joey may be the current chairperson but not even he knows this flag!")
 	case "izzy":
-		fmt.Println("I didn't think anyone would think Izzy was the best person, unless you have a crush on her of course, but I guess you can have a flag she would like dmu_hackers{IzzyIsTheBest}. It won't work but you can have it")
+		fmt.Println("I didn't think anyone would think Izzy was the best person, unless you have a crush on her of course, but I guess you can have a flag she would like dmu_hackers{IzzyIsTheBest}. It won't work as it's a complete lie but you can have it")
 	case "orlin":
 		fmt.Println("I didn't know Maisie was in this room. Live orlin update anyone?")
 	case "maisie":
@@ -62,6 +62,11 @@ func printBestPerson(bestPerson string) {
 		fmt.Println("I think you meant to type Jack as we all know Chloe is a myth")
 	case "george":
 		fmt.Println("This man is good for all your tech support needs, the SU hired him for a reason")
+	case "dilan":
+		fmt.Println("Yes hes on placement but don't stay at his house overnight, you may get a full report in the morning")
+	case "georgie":
+		fmt.Println("She needs a bit of a break, being a nurse and all.")
+
 	default:
 		fmt.Println(bestPerson, "is the best person in this room")
 	}
