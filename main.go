@@ -66,7 +66,8 @@ func printBestPerson(bestPerson string) {
 		fmt.Println("Yes hes on placement but don't stay at his house overnight, you may get a full report in the morning")
 	case "georgie":
 		fmt.Println("She needs a bit of a break, being a nurse and all.")
-
+	case "rav":
+		fmt.Println("Someone get this man a high paying job that doesn't require security checks")
 	default:
 		fmt.Println(bestPerson, "is the best person in this room")
 	}
