@@ -43,9 +43,8 @@ func printBestPerson(bestPerson string) {
 		fmt.Println("Matthew or is it Matt? Must be one of those new committee members.")
 	case "matt":
 		fmt.Println("Matthew or is it Matt? Must be one of those new committee members.")
-	case "everyone":
-		// Woo we all love code comments, Can't believe you found this one! You're the best person in the room! Here's your flag: dmu_hackers{D4mn_y0u_git_hist0ry!}
-		fmt.Println("Well done, You got the correct answer! Everyone is the best person!")
+	case "rory":
+		fmt.Println("Roary the racing car, Roary the number 1 star!")
 
 	default:
 		fmt.Println(bestPerson, "is the best person in this room")
