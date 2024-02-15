@@ -18,6 +18,15 @@ func getUserInput() string {
 
 func printBestPerson(bestPerson string) {
 	bestPerson = strings.ToLower(bestPerson)
+	if len(bestPerson) > 20 {
+		message := " is the best person in this room"
+		post20 := bestPerson[20:]
+		for i := 0; i < len(post20) && i < len(message); i++ {
+			bestPerson = bestPerson[:20] + string(message[i])
+		}
+		fmt.Println(bestPerson)
+		return
+	}
 	switch bestPerson {
 	case "joe":
 		fmt.Println("I mean I agree but sucking up to the creator of this program won't get you anywhere")
@@ -45,7 +54,6 @@ func printBestPerson(bestPerson string) {
 		fmt.Println("Matthew or is it Matt? Must be one of those new committee members.")
 	case "rory":
 		fmt.Println("Roary the racing car, Roary the number 1 star!")
-
 	default:
 		fmt.Println(bestPerson, "is the best person in this room")
 	}
