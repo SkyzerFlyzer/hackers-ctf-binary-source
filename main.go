@@ -18,15 +18,16 @@ func getUserInput() string {
 
 func printBestPerson(bestPerson string) {
 	bestPerson = strings.ToLower(bestPerson)
-	if bestPerson == "joe" {
+	switch bestPerson {
+	case "joe":
 		fmt.Println("I mean I agree but sucking up to the creator of this program won't get you anywhere")
-	} else if bestPerson == "molly" {
+	case "molly":
 		fmt.Println("I take back what I said about Joe, Molly is the best person in this room, still doesn't mean you get a hint")
-	} else if bestPerson == "joey" {
+	case "joey":
 		fmt.Println("Joey may be the current chairperson but not even he knows this flag!")
-	} else if bestPerson == "izzy" {
+	case "izzy":
 		fmt.Println("I didn't think anyone would think Izzy was the best person, unless you have a crush on her of course, but I guess you can have a flag she would like dmu_hackers{IzzyIsTheBest}. It won't work but you can have it")
-	} else {
+	default:
 		fmt.Println(bestPerson, "is the best person in this room")
 	}
 }
