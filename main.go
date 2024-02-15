@@ -60,6 +60,8 @@ func printBestPerson(bestPerson string) {
 		fmt.Println("I don't know if Jordon will be here but I'm sure he'd try a buffer overflow. Yes it is spelt with an O contrary to autocorrect's beliefs")
 	case "chloe":
 		fmt.Println("I think you meant to type Jack as we all know Chloe is a myth")
+	case "george":
+		fmt.Println("This man is good for all your tech support needs, the SU hired him for a reason")
 	default:
 		fmt.Println(bestPerson, "is the best person in this room")
 	}
